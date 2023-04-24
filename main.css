@@ -1,0 +1,174 @@
+body{background-color: black;}
+#box1 {width:700px; height:700px; background-color: red; }
+#box2 {width:500px; height:500px; background-color: black;  }
+h2{color: aliceblue;
+font size:500px; padding:100px;
+}
+p{font-size: larger;
+}
+
+body
+{font-family:"'Roboto', sans-serif;"
+
+}
+
+*{ box-sizing:border-box; 
+    padding:0;
+    margin:0;
+ }
+   
+    nav{ 
+    background:beige;
+    padding:5px 20px;}
+    Ul{list-style-type: none;}
+    a{color:red;
+        text-decoration: none;
+ }
+a:hover{text-decoration:wavy ;}
+
+   img{height: 183px;width:275px}
+   
+   .menu li{font-size:16px;
+     padding:15px 5px;}
+    
+     .menu li a{
+        display:block;}
+   .logo a{
+    font-size:20px;
+}
+   .button.secondary{border-bottom:1px solid;}
+    /*desktop menu*/
+   .menu{
+   display:flex;
+flex-wrap:wrap; 
+justify-content:space-between;
+align-items:center;
+}
+.toggle{
+    order:1;
+}
+.item.button{
+    order:2;
+}
+.item{
+    width:100%;
+    text-align:center;
+    order:3;
+    display:none;
+   
+
+    /*Mobile Menu */
+}
+.item.active.
+{display:block;}
+
+
+
+
+/*navbar Toggle */
+
+
+.toggle{
+    cursor:pointer;
+
+}
+.bars{
+ background:black;
+display:inline-block;
+height:2px;
+position:relative;
+width:18px
+ }
+ .bar:before,
+ .bars:after{
+ background:black;
+ Content:"";
+display:inline-block;
+height:2px;
+position:absolute;
+width:18px;
+ }
+ .bars:before{
+    top:5px;
+ }
+ .bars:after
+ {
+    top:-5px; 
+}
+/*Tablet Menu*/
+@media all and (min-width:468px) {
+    .munu{justify-content: center;
+    }
+.logo{
+    flex:1;
+}
+.item.button{
+width:auto;
+order:1;
+display:block;
+}
+.toggle{
+    order:2;
+}
+.button.secondary{
+border:0;
+
+}.button a{
+    padding:7px 15px;
+    background:black;
+    border:1px solid #4fffff;
+    border-radius:50em;
+
+}
+.button.secondary a{
+    background-color: black;
+}
+
+.button a:hover{
+   text-decoration: none; 
+   transition:all .25;
+
+}
+
+.button:not(.secondary) a:hover{
+    color:white;
+
+}
+}
+/*displqy:none*/
+@media all and (min-width: 768px) { 
+.item{
+display:block;
+width:auto;
+}
+
+.toggle{
+    display:none; 
+}
+.logo{
+    order:0;
+
+}
+.item{
+    order:1;
+    padding: 7px 15px;
+    
+}
+.button{
+order:2;
+}
+{padding:15px 10px;}
+.menu li.button{
+    padding:15px 10px;}
+    .menu li.button{
+        padding-right:0;
+    }
+    .logo{
+        padding: 7px 15px;
+        background-color: black;
+        border:1px red;
+        border-radius:50em;
+        text-align: center;
+    }
+
+    

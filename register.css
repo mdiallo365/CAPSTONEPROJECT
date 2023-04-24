@@ -1,0 +1,12 @@
+body {
+    background-image: url("richard.jpeg");
+    background-size: cover;
+}
+
+.form-label{color:black;}
+.container {
+    background:red;
+}
+.form-check-label{color: black;}
+
+.mb-4{object-position:top 1px right 40px;}
